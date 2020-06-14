@@ -1,0 +1,30 @@
+.skills
+    padding: 90px 0 110px
+    &__title
+        margin-bottom: 70px
+    &__description
+        margin-bottom: 83px
+    &__elements
+        display: flex
+        justify-content: space-between
+
+@media screen and ( max-width: 900px )
+    .skills
+        &__description
+            margin-bottom: 0
+        &__elements
+            flex-direction: column
+
+
+
+.skill
+    text-align: center
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    &__description
+        margin: 25px 0 40px
+
+@media screen and ( max-width: 900px )
+    .skill
+        margin-top: 80px

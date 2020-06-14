@@ -1,0 +1,8 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Gilroy-Medium";
+
+  src: url("./fonts/Gilroy-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

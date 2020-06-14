@@ -1,0 +1,8 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Gilroy-Bold";
+
+  src: url("./fonts/Gilroy-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

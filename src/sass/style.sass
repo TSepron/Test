@@ -1,0 +1,45 @@
+@import _fonts
+@import _colors
+
+* 
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    
+html
+    font-family: Gilroy
+    font-weight: normal
+    color: $main
+
+body.menu-open
+    height: 100%
+    overflow: hidden
+    width: 100%
+    position: fixed
+
+.container
+    width: 90%
+    max-width: 945px
+    margin: 0 auto
+    
+@media screen and ( max-width: 450px )
+    .container
+        width: 100%
+        padding: 0 30px
+
+.title, .description
+    text-align: center
+.title
+    font-size: 34px
+    font-weight: bold
+    line-height: 42px
+.description
+    font-size: 18px
+    font-weight: normal
+    line-height: 22px
+    
+@import pages/_header
+@import pages/_about
+@import pages/_skills
+@import pages/_portfolio
+@import pages/_footer
